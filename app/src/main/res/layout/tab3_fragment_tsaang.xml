@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#F8F8F8"
+    android:fillViewport="true"
+    >
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageSquare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="44dp"
+            android:background="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/tsaanggubatlarge" />
+
+        <TextView
+            android:id="@+id/plantLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/brandonitalicfont"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            app:layout_constraintTop_toBottomOf="@id/imageSquare"
+            tools:layout_editor_absoluteX="0dp"
+            tools:text="Vitex negundo" />
+
+        <!--<ImageView-->
+            <!--android:id="@+id/leafSquare"-->
+            <!--android:layout_width="220dp"-->
+            <!--android:layout_height="220dp"-->
+
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:background="#ffffff"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@id/plantLabel"-->
+            <!--app:srcCompat="@drawable/bawangleaf" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/leafLabel"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:fontFamily="@font/brandonitalicfont"-->
+            <!--android:gravity="center"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:textSize="22sp"-->
+            <!--app:layout_constraintTop_toBottomOf="@id/leafSquare"-->
+            <!--tools:layout_editor_absoluteX="0dp"-->
+            <!--tools:text="Vitex negundo" />-->
+
+        <ImageView
+            android:id="@+id/inflorescence"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/plantLabel"
+            app:srcCompat="@drawable/tsaangflower" />
+
+
+        <TextView
+            android:id="@+id/inflorescenceLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/brandonitalicfont"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            app:layout_constraintTop_toBottomOf="@id/inflorescence"
+            tools:layout_editor_absoluteX="0dp"
+            tools:text="Vitex negundo" />
+
+        <ImageView
+            android:id="@+id/botanical"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/inflorescenceLabel"
+            app:srcCompat="@drawable/tsaangbotanical" />
+
+
+        <TextView
+            android:id="@+id/botanicalLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/brandonitalicfont"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            app:layout_constraintTop_toBottomOf="@id/botanical"
+            tools:layout_editor_absoluteX="0dp"
+            tools:text="Vitex negundo" />
+
+
+
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>

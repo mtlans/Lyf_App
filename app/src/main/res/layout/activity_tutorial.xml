@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tutorial">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="32dp"
+            android:background="#28544B"
+            android:fontFamily="@font/cocogoosefont"
+            android:paddingVertical="36px"
+            android:textColor="#000000"
+            android:text="Instructions\nfor Identifying"
+        />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/brandonfont"
+            android:text="Pluck leaf from plant to identify."
+            android:textColor="#000000"
+            android:textSize="26dp"
+            android:layout_marginTop="90px"
+            android:layout_marginLeft="40px"
+            />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/brandonfont"
+            android:text="Put leaf in palm of hand"
+            android:textColor="#000000"
+            android:textSize="26dp"
+            android:layout_marginTop="30px"
+            android:layout_marginLeft="40px"
+            />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/brandonfont"
+            android:text="Press capture button to identify"
+            android:textColor="#000000"
+            android:textSize="26dp"
+            android:layout_marginTop="30px"
+            android:layout_marginLeft="40px"
+            />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/capture"
+                android:layout_gravity="top|center"/>
+
+            <ImageButton
+                android:id="@+id/btnCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_margin="15dp"
+                app:srcCompat="@drawable/check"
+                android:background="#FFFFFF"/>
+        </FrameLayout>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

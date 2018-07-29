@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#F8F8F8"
+    android:fillViewport="true"
+    >
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp">
+
+        <ImageView
+            android:id="@+id/whiteBorder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="5dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/imageSquare"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/whiteborder" />
+
+        <ImageView
+            android:id="@+id/imageSquare"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:padding="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/whiteBorder"
+            app:layout_constraintEnd_toEndOf="@+id/whiteBorder"
+            app:layout_constraintStart_toStartOf="@+id/whiteBorder"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.016"
+            app:srcCompat="@drawable/pansitpansitanlarge" />
+        <TextView
+            android:id="@+id/commonName"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/cocogoosefont"
+            android:gravity="center"
+            android:padding="0dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            app:layout_constraintTop_toBottomOf="@+id/whiteBorder"
+            tools:layout_editor_absoluteX="0dp"
+            tools:text="LAGUNDI" />
+        <TextView
+            android:id="@+id/scienteficName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/brandonitalicfont"
+            android:gravity="center"
+            android:padding="0dp"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/englishName"
+            tools:text="Vitex negundo" />
+
+        <TextView
+            android:id="@+id/englishName"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/brandonfont"
+            android:gravity="center"
+            android:padding="0dp"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/commonName"
+            tools:text="5-leaved Chaste Tree" />
+
+
+
+        <TextView
+            android:id="@+id/recommendedLabel"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/nexaboldfont"
+            android:gravity="left"
+            android:padding="0dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/scienteficName"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/recommendedfor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/brandonfont"
+            android:gravity="center"
+            android:padding="0dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/recommendedLabel"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+        <TextView
+            android:id="@+id/recommended"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/brandonfont"
+            android:gravity="left"
+            android:padding="0dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/recommendedfor"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+        <TextView
+            android:id="@+id/beneficialLabel"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/nexaboldfont"
+            android:gravity="left"
+            android:padding="0dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/recommended"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+        <TextView
+            android:id="@+id/beneficialFor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/brandonfont"
+            android:gravity="center"
+            android:padding="0dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/beneficialLabel"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+        <TextView
+            android:id="@+id/beneficial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/brandonfont"
+            android:gravity="left"
+            android:padding="0dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/beneficialFor"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/notRecommendedLabel"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="33dp"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:background="#FFFFFF"-->
+            <!--android:fontFamily="@font/nexaboldfont"-->
+            <!--android:gravity="left"-->
+            <!--android:padding="0dp"-->
+            <!--android:paddingTop="10dp"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:textSize="20sp"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/beneficial"-->
+            <!--tools:layout_editor_absoluteX="0dp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/notRecommended"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:background="#FFFFFF"-->
+            <!--android:fontFamily="@font/brandonfont"-->
+            <!--android:gravity="left"-->
+            <!--android:padding="0dp"-->
+            <!--android:paddingTop="10dp"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:textSize="18sp"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/notRecommendedLabel"-->
+            <!--tools:layout_editor_absoluteX="0dp" />-->
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#F8F8F8"
+    android:fillViewport="true"
+    >
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp">
+        <TextView
+            android:id="@+id/localNamesLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/imageSquare"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/nexaboldfont"
+            android:gravity="center_horizontal"
+            android:padding="0dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:text="Local Names"/>
+
+        <TextView
+            android:id="@+id/localNames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/brandonfont"
+            android:gravity="left"
+            android:padding="0dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/localNamesLabel"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/distributionLabel"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/nexaboldfont"
+            android:gravity="center_horizontal"
+            android:padding="0dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/localNames"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+        <TextView
+            android:id="@+id/distribution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/brandonfont"
+            android:gravity="left"
+            android:padding="0dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/distributionLabel"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/habitatLabel"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/nexaboldfont"
+            android:gravity="center_horizontal"
+            android:padding="0dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/distribution"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+        <TextView
+            android:id="@+id/habitat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/brandonfont"
+            android:gravity="left"
+            android:padding="0dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/habitatLabel"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/statusLabel"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/nexaboldfont"
+            android:gravity="center_horizontal"
+            android:padding="0dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/habitat"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/brandonfont"
+            android:gravity="left"
+            android:padding="0dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/statusLabel"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/propagationLabel"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/nexaboldfont"
+            android:gravity="center_horizontal"
+            android:padding="0dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/status"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+        <TextView
+            android:id="@+id/propagation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/brandonfont"
+            android:gravity="left"
+            android:padding="0dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/propagationLabel"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/notesLabel"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/nexaboldfont"
+            android:gravity="center_horizontal"
+            android:padding="0dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/propagation"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+        <TextView
+            android:id="@+id/notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/brandonfont"
+            android:gravity="left"
+            android:padding="0dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/notesLabel"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>

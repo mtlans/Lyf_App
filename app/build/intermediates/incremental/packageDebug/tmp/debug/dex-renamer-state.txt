@@ -1,0 +1,4 @@
+#Sat Jul 28 07:45:33 SGT 2018
+base.0=C\:\\Users\\antev\\Desktop\\New folder (2)\\app2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
